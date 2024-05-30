@@ -68,3 +68,6 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
+### About Project
+This project is developed on Career Councling System, this is simple basic interface between Teachers and students, in which teacher's can sell our courses and create sessions where students can buy it also student can contact to teacher for any session or can query to teacher etc. so download this project and edit as per your choice and used it, thankyou.
