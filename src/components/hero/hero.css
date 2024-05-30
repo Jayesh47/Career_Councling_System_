@@ -1,0 +1,60 @@
+.carousel-item img {
+    height: 34em;
+}
+.Tag {
+    position: absolute;
+    top: 7em;
+    height: 34em;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: brightness(0.6);
+    img {
+        width: fit-content;
+        height: fit-content;
+    }
+    p {
+        width: fit-content;
+        height: fit-content;
+        color: white;
+        margin-top: 20px;
+        font-size: 24px;
+        font-family: Georgia, 'Times New Roman', Times, serif;
+    }
+}
+.underline {
+    width: 80px;
+    height: 4px;
+    background-color: red;
+}
+.About-us {
+    .about-content 
+    .about-para {
+        text-align: justify;
+        line-height: 30px;
+        font-size: 18px;
+        border-left: 4px solid red;
+    }
+}
+.Contact {
+    .contact-detail {
+        width: 75%;
+        margin: auto;
+        border-right: 4px solid red;
+        .contactus {
+            width: 100%;
+            margin-right: 10px;
+            #contactQuery{ 
+                height: 131px;
+            }
+            label {
+                margin-top: 10px;
+            }
+            button {
+                float: right;
+            }
+        }
+    }
+}

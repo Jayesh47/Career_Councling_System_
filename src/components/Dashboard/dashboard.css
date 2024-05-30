@@ -1,0 +1,245 @@
+.course {
+    box-shadow: 2px 2px 8px 2px rgba(0, 0, 0, 0.3);
+    display: flex;
+    flex-direction: column;
+    width: 18rem;
+    text-decoration: none;
+    color: black;
+    padding: 8px;
+    border-radius: 10px;
+
+    span {
+        font-weight: bold;
+
+        strike {
+            font-weight: 500;
+            color: red;
+        }
+    }
+
+    img {
+        border-radius: 10px;
+        width: 340px;
+        height: 200px;
+    }
+
+    .btn {
+        font-size: 20px;
+    }
+}
+
+.courses {
+    justify-content: space-evenly;
+}
+
+.course:hover {
+    color: rgb(68, 68, 68);
+}
+
+.counslors {
+    align-items: center;
+    border: 2px solid black;
+    padding: 8px;
+
+    .profiles {
+        overflow-x: auto;
+    }
+
+    .slide-icon {
+        font-size: 30px;
+        height: 10vh;
+        display: flex;
+        align-items: center;
+    }
+
+    img {
+        border-radius: 60px;
+        border: 2px solid red;
+    }
+
+    .counslors-profile {
+        text-decoration: none;
+        color: black;
+        text-align: center;
+        margin-left: 20px;
+        margin-right: 20px;
+
+        p {
+            font-size: 12px;
+        }
+    }
+
+    .counslors-profile:hover {
+        transition: all 0.3s ease-in-out;
+        color: blue;
+    }
+}
+
+.profiles::-webkit-scrollbar {
+    width: 10px;
+    height: 10px;
+}
+
+.profiles::-webkit-scrollbar-track {
+    background-color: transparent;
+    border-radius: 10px;
+}
+
+.profiles::-webkit-scrollbar-thumb {
+    background-color: red;
+    border-radius: 10px;
+}
+
+.course-img {
+    display: flex;
+    justify-content: space-between;
+
+    .about-course {
+        line-height: 10vh;
+    }
+}
+
+.pov {
+    .description {
+        width: 25%;
+        text-align: justify;
+        margin-right: 20px;
+    }
+
+    li {
+        margin-left: 30px;
+    }
+}
+
+.counslor-details {
+    .Teachers-Discription {
+        border: 2 px solid red;
+    }
+
+    .Teachers-Discription img {
+        height: 100px;
+        width: 100px;
+    }
+}
+
+.student-profile-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 20px;
+}
+
+.back-button-container {
+    margin-bottom: 20px;
+}
+
+.back-button {
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+}
+
+.back-button i {
+    margin-right: 5px;
+}
+
+.student-info-container {
+    display: flex;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.student-image {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    object-fit: cover;
+    margin-right: 20px;
+}
+
+.student-details {
+    display: flex;
+    flex-direction: column;
+}
+
+.courses-enrolled-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.courses-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.course-card {
+    width: 300px;
+    height: 200px;
+    background-color: #f5f5f5;
+    border-radius: 10px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.course-card h3 {
+    font-size: 24px;
+    margin-bottom: 10px;
+}
+
+.course-card p {
+    font-size: 16px;
+    margin-bottom: 0;
+}
+
+.main-dashboard {
+    h1 {
+        text-transform: capitalize;
+    }
+}
+
+.list-item {
+    justify-content: space-between;
+    align-items: center;
+    box-shadow: 2px 2px 4px 2px rgba(0, 0, 0, 0.4);
+    border-radius: 8px;
+
+    a {
+        text-decoration: none;
+    }
+}
+.courses {
+    display: flex;
+    flex-wrap: wrap;
+    .course {
+        margin-right: 10px;
+        margin-left: 10px;
+        margin-top: 20px;
+        margin-bottom: 20px;
+        img {
+            width: 270px;
+        }
+    }
+}
+.session {
+    width: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 2px 2px 4px 2px  rgba(0, 0, 0, 0.4);
+    padding: 8px;
+    img {
+        border-radius: 20rem;
+    }
+    .session-details {
+        text-align: center;
+    }
+}

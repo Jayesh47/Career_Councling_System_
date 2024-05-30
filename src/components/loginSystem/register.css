@@ -1,0 +1,33 @@
+body {
+    background-color: beige;
+}
+.other-links {
+    display: flex;
+    flex-direction: column;
+}
+.login {
+    .login-form {
+        box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+        flex-direction: column;
+        justify-content: center;
+        border-radius: 5px;
+        button {
+            font-size: 20px;
+        }
+    }
+}
+.back {
+    position: relative;
+    top: 20px;
+    left: 20px;
+    font-weight: 500;
+}
+.register-form {
+    flex-direction: column;
+    justify-content: center;
+    box-shadow: 2px 2px 4px rgba(0,0,0,0.5);
+
+    button {
+        font-size: 20px;
+    }
+}
