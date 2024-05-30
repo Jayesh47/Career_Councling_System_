@@ -1,0 +1,18 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "description": "this is my minor project on career councling system.",
+  "main": "server.js",
+  "scripts": {
+    "test": "nodemon",
+    "start": "node server.js"
+  },
+  "keywords": [
+    "nodemon"
+  ],
+  "author": "jayesh malviya",
+  "license": "ISC",
+  "dependencies": {
+    "multer": "^1.4.5-lts.1"
+  }
+}
