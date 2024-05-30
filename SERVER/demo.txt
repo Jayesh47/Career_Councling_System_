@@ -1,1 +1,0 @@
-this is the server file where all server related files are stored.
