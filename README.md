@@ -2,6 +2,11 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
+# For Growth Need Career
+This is my minor project of college and 
+BrightCareer project supports to career councling which need for growth, and this project is developed in MERN Stack which is MVC (Model View Controller) based framework.
+also, in this I use MySQL as database at the place of MongoDB so this will give me flexible for work with both databases MongoDB or MySQL.
+
 ## Available Scripts
 
 In the project directory, you can run:
