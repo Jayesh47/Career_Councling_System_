@@ -2,7 +2,7 @@
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-# For Growth Need Career
+## For Growth Need Career
 This is my minor project of college and 
 BrightCareer project supports to career councling which need for growth, and this project is developed in MERN Stack which is MVC (Model View Controller) based framework.
 also, in this I use MySQL as database at the place of MongoDB so this will give me flexible for work with both databases MongoDB or MySQL.
@@ -73,6 +73,3 @@ This section has moved here: [https://facebook.github.io/create-react-app/docs/d
 ### `npm run build` fails to minify
 
 This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
-
-### About Project
-This project is developed on Career Councling System, this is simple basic interface between Teachers and students, in which teacher's can sell our courses and create sessions where students can buy it also student can contact to teacher for any session or can query to teacher etc. so download this project and edit as per your choice and used it, thankyou.
